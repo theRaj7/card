@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RaJ Shinde</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <style>
+      * {
+        margin: 0;
+      }
+      .Container {
+        background-color: grey;
+        height: 490px;
+        width: 400px;
+        position: absolute;
+        top: 25%;
+        left: 40%;
+        border-radius: 25px;
+        display: flexbox;
+      }
+
+      img {
+        width: 200px;
+        position: absolute;
+        left: 100px;
+        top: 25px;
+        /* border: 2px solid white;
+        border-image: url(/images/raj-modified.png) 20% round; */
+        border: 4px solid #fffbf5;
+        border-radius: 120px;
+      }
+
+      .part-1 {
+        height: 190px;
+        background-color: aqua;
+        border-top-right-radius: 25px;
+        border-top-left-radius: 25px;
+      }
+
+      .part-2 {
+        text-align: center;
+        padding-top: 50px;
+        color: white;
+      }
+      p {
+        font-size: 25px;
+        padding-bottom: 10px;
+      }
+
+      i {
+        margin-left: 10px;
+      }
+      button {
+        margin-top: 10px;
+        background-color: aqua;
+        font-size: 20px;
+        height: 45px;
+        width: auto;
+        border: solid grey;
+        border-radius: 10px;
+        margin-left: 5px;
+        color: black;
+      }
+
+      .bottom-icon {
+        margin-top: 20px;
+        margin-left: 80px;
+        display: inline-flex;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="Container">
+      <div class="part-1">
+        <img src="/images/raj-modified.png" alt="" />
+      </div>
+      <div class="part-2">
+        <h1>RaJ Shinde</h1>
+        <p>Student</p>
+
+        <i class="fa-brands fa-instagram fa-2xl"></i
+        ><i class="fa-brands fa-twitter fa-2xl"></i>
+        <i class="fa-brands fa-facebook fa-2xl"></i>
+        <i class="fa-brands fa-youtube fa-2xl"></i>
+        <br /><br />
+        <button>Subscribe</button>
+        <button>Message</button>
+      </div>
+      <div class="bottom-icon">
+        <p><i class="fa-regular fa-heart"></i>60k |</p>
+        <p><i class="fa-regular fa-comment"></i>20k |</p>
+        <p><i class="fa-solid fa-share"></i>12k</p>
+      </div>
+    </div>
+  </body>
+</html>
